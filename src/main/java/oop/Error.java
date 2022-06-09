@@ -2,9 +2,9 @@ package oop;
 
 public class Error {
 
-    String message;
-    boolean active;
-    int status;
+    private String message;
+    private boolean active;
+    private int status;
 
     public Error() {
 
