@@ -1,4 +1,4 @@
-package oop;
+package ru.job4j.oop;
 
 public class Error {
 
@@ -25,7 +25,6 @@ public class Error {
     public static void main(String[] args) {
         Error error = new Error();
         error.show();
-        System.out.println("");
         Error error1 = new Error("text", true, 5);
         error1.show();
     }
