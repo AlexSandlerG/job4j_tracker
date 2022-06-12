@@ -29,7 +29,10 @@ public class Calculator {
         Calculator calculatorDivide = new Calculator();
         int rslDivide = calculatorDivide.divide(10);
         double rslSumAll = calculatorDivide.sumAllOperation(6);
+        int rslSum = sum(8);
+        int rslMultiple = calculatorDivide.multiple(3);
         System.out.println(rslMinus + System.lineSeparator()
-                + rslDivide + System.lineSeparator() + rslSumAll);
+                + rslDivide + System.lineSeparator() + rslSumAll
+                + System.lineSeparator() + rslSum + System.lineSeparator() + rslMultiple);
     }
 }
