@@ -45,6 +45,7 @@ public class Tracker {
         }
         return rsl;
     }
+
     public boolean replace(int id, Item item) {
         int index = indexOf(id);
         boolean rsl = index != -1;
@@ -54,6 +55,7 @@ public class Tracker {
         }
         return rsl;
     }
+
     public boolean delete(int id) {
         int index = indexOf(id);
         boolean rsl = index != -1;
