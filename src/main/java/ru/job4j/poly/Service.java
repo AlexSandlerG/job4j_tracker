@@ -1,4 +1,4 @@
-package ru.job4j.tracker;
+package ru.job4j.poly;
 
 public class Service {
     private Store store;
