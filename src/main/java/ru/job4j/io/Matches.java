@@ -14,7 +14,7 @@ public class Matches {
             System.out.println(player + " введите число от 1 до 3:");
             int matches = Integer.parseInt(input.nextLine());
 
-            if (matches <= 3 && matches >=1 && matches <= count) {
+            if (matches <= 3 && matches >= 1 && matches <= count) {
                 count -= matches;
                 System.out.println("Осталось " + count + " спичек");
                 turn = !turn;
